@@ -1,7 +1,7 @@
 const {OAuth2Client} = require('google-auth-library');
-const CLIENT_ID = "691667256327-mbo9gccm6e6p2q61i724fn66js7vdra3.apps.googleusercontent.com";
-const CLIENT_SECRET = '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';
-const REDIRECT_URI = "https://twed.com.br/";
+const CLIENT_ID = "Id do cliente";
+const CLIENT_SECRET = 'Chave secreta do cliente';
+const REDIRECT_URI = "URI de redirecionamento";
 
 const oauth2Client = new OAuth2Client(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI);
 
