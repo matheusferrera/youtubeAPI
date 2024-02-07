@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 
-const access_token = "ya29.a0AfB_byC0Y-_o1YgNk-3w5r-Cymz37WMNH7XQ1qFIyukxV77pqQLnNz2FGhpexxPwfm38lUvHnXmPtEqyPAkwe1I5KHE0mgq4pSHm_t7X-TTV6DdbqTjD8g-_vZjvRX9I_MSzhbg47lFcWNlHdZNhNNJEEgUP0WTQn4jRXJtEaCgYKAQsSARASFQHGX2Mi-wx6RSYD5Jbs5D8SDHS9IQ0175"
+const access_token = "ya29.a0AfB_byCaU1Fx21QZMFco0XeXsR1elvPIQfLAFh2CvgxaUsLri_yFLw7gmR8IJ5yBAHV-DMK-skMC_qlBMw2_D7eJrkkQwLHrhJmJ9t1S3C6DuLYFKk08dUztdCn71n60QLUxeM51lTGLqHbpxcwxj3FZpPIYcCClkGhvaCgYKAQsSARASFQHGX2Mi_hoPQHcxF-hD0lOvTQNfog0171"
 
 
 //Funções auxiliares
@@ -21,7 +21,7 @@ async function getChannelAnalytics() {
     const response = await axios.get('https://youtubeanalytics.googleapis.com/v2/reports', {
         params: {
             'endDate': '2023-12-30',
-            'ids': 'channel==mine',
+            'ids': 'channel==UCg5G6nXimJvvziRvLHE6xyQ',
             'metrics': 'likes,dislikes,views',
             'startDate': '2023-12-01'
         },

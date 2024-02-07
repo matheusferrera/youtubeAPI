@@ -5,7 +5,7 @@ const CLIENT_SECRET = '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';
 const REDIRECT_URI = "https://twed.com.br/";
 
 const oauth2Client = new OAuth2Client(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI);
-const code_url = '4/0AfJohXkfY14SRuI_OqOQgQwc4phjwWcTFxux_a4My8AvK7pMJoJ5Dj7S6RH0zYU6WfCCZg'; //Code vindo da REDIRECT_URI
+const code_url = '4/0AfJohXnbxK4GpAU-Nr4Th5nTMX2J_vmRe1HgYZtCogAjuOWtclRw4tcae7-zPOGuzFcQ-A'; //Code vindo da REDIRECT_URI
 
 async function getAccessToken(code) {
     try {
